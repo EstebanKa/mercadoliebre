@@ -1,0 +1,92 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin-top: 20px;
+    font-style: oblique;
+}
+
+form{
+    width: 80%;
+    height: 600px;
+    padding: 5px;
+    border-radius: 7px;
+    margin: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+label{
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 18px;
+
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+}
+
+.contraseña input,
+.profile label{
+    margin: 5px;
+}
+
+.interes{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.contraseña,
+.foto-perfil{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-perfil input{
+    margin-top:5px ;
+}
+
+#input{
+    background-color: #ffffff;
+    height: 35px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+
+.buttons{
+    width: 60%;
+    height: 20px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons input{
+    background-color: #1259c3;
+    height: 40px;
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 5px;
+}
+
